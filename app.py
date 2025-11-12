@@ -8,7 +8,7 @@ st.set_page_config(page_title="Análise de Veículos", page_icon="🚗", layout=
 # --- Leitura do dataset ---
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"\bruno\envs\meus_projetos\vehicles.csv")
+    return pd.read_csv(r"vehicles.csv")
 
 car_data = load_data()
 
